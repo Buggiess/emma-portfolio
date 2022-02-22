@@ -1,6 +1,7 @@
 body {
     font-family: 'Jost', sans-serif;
     background-color: #f4c2c2;
+    width: 1270px;
 }
 
 aside {
@@ -45,21 +46,36 @@ aside nav a {
     color: #fae7b5;
     background-color: #527c90;
     border-radius: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0px 50px;
     transition: all 250ms ease-out;
+    display: block;
 }
 
 aside nav a:hover {
-    box-shadow: inset 0 0 15px #293e48;
-    color: #fdf5e1;
+    box-shadow: inset 0 0 15px #365260;
+    color: #fff;
 }
 
 aside nav a:focus {
-    box-shadow: none;
+    box-shadow: inset 0 0 15px #0d1418;
 }
 
 aside footer {
     margin-top: auto;
     align-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    left: 243.031px;
+    right: 0;
+}
+
+main h1 {
+    align-self: center;
+    font-size: 64px;
 }
