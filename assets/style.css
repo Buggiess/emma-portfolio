@@ -9,6 +9,7 @@ body {
     font-family: 'Jost', sans-serif;
     background-color: #f4c2c2;
     width: 1270px;
+    margin: 0;
 }
 
 aside {
@@ -81,12 +82,12 @@ main {
 }
 
 header {
-    height: 800px;
-    line-height: 700px;
+    height: 300px;
+    line-height: 300px;
 }
 
 header span{
-    font-size: 144px;
+    font-size: 80px;
 }
 
 #projects {
@@ -155,3 +156,70 @@ header span{
     justify-content: space-around;
     align-items: center;
 }
+
+@media screen and (max-width: 992px) {
+    aside {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fae7b5;
+        height: 200px;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    aside h3 {
+        align-self: center;
+        font-size: 26px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    #icon {
+        display: none;
+    }
+
+    
+    aside nav {
+        display: flex;
+        margin:5px;
+        align-self: center;
+        flex-direction: column;
+        display: inline;
+    }
+    
+    aside nav a {
+        margin: 8px;
+        align-self: center;
+        color: #fae7b5;
+        background-color: #527c90;
+        border-radius: 10px;
+        padding: 0px 50px;
+        transition: all 250ms ease-out;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    aside nav a:hover {
+        box-shadow: inset 0 0 15px #365260;
+        color: #fff;
+    }
+    
+    aside nav a:focus {
+        box-shadow: inset 0 0 15px #0d1418;
+    }
+    
+    aside footer {
+        display: none;
+    }
+
+    main {
+        margin-top: 243.021px;
+        left: 0;
+        position:static;
+    }
+  }
