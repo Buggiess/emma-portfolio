@@ -165,7 +165,7 @@ header span{
         top: 0;
         left: 0;
         background-color: #fae7b5;
-        height: 200px;
+        height: 100px;
         width: 100%;
         flex-wrap: nowrap;
         justify-content: space-around;
@@ -173,7 +173,7 @@ header span{
 
     aside h3 {
         align-self: center;
-        font-size: 26px;
+        font-size: 32px;
         margin-left: 20px;
         text-align: center;
     }
@@ -182,13 +182,16 @@ header span{
         display: none;
     }
 
+    aside p {
+        display: none;
+    }
+
     
     aside nav {
         display: flex;
         margin:5px;
         align-self: center;
-        flex-direction: column;
-        display: inline;
+        flex-direction: row;
     }
     
     aside nav a {
@@ -200,7 +203,7 @@ header span{
         padding: 0px 50px;
         transition: all 250ms ease-out;
         display: block;
-        font-size: 12px;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -221,5 +224,6 @@ header span{
         margin-top: 243.021px;
         left: 0;
         position:static;
+        width: 100%;
     }
   }
