@@ -93,17 +93,22 @@ header span{
 
 #projects {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     border-radius: 15px;
     padding: 10px;
-    width: 900px;
-    height: 700px;
+    width: 100%px;
+    height: 1000px;
     justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
 .card{
     margin: 10px;
     height: 176px;
+    width: fit-content;
     transition: all 250ms ease-out;
 }
 
@@ -116,9 +121,11 @@ header span{
     display: flex;
     flex-direction: row;
     margin: 10px;
-    width: 300px;
+    width: 500px;
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 /* @media screen and (max-width: 768px) */
