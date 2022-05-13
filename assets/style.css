@@ -126,6 +126,26 @@ header span{
     align-items: center;
 }
 
+.code-btn {
+    margin: 8px;
+    align-self: center;
+    color: rgb(240, 230, 230);
+    background-color: #327594;
+    border-radius: 10px;
+    padding: 0px 50px;
+    display: block;
+    box-shadow: 0 0 10px #866c6c;
+    transition: all 250ms ease-out;
+}
+
+.code-btn:hover {
+    box-shadow: inset 0 0 15px rgb(35, 53, 62);
+    color: #fff;
+}
+
+.code-btn:focus {
+    box-shadow: inset 0 0 15px #0d1418;
+}
 
 
 /* @media screen and (max-width: 768px) */
