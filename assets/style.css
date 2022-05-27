@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Jost', sans-serif;
-    background-color: #f4c2c2;
+    background-color: #ffe3e3;
     width: 1270px;
     margin: 0;
 }
@@ -18,7 +18,7 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #cea5a5;
+    background-color: #e0cccc;
     height: 100%;
 }
 
@@ -149,13 +149,17 @@ header span{
 
 
 @media screen and (max-width: 768px){
-    
-    header{
-        transform: translate(15%);
-        width: 400px;
+
+    main{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
     }
 
-    header span{
-        font-size: 40px;
+    aside{
+        display: none;
     }
 }
