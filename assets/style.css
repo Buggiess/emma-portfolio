@@ -102,6 +102,12 @@ header{
     border: solid 1px #742e2e;
 }
 
+.cd-5{
+    width:auto;
+    display: flex;
+    justify-content: center;
+}
+
 .card-font{
     font-size: 21px;
     font-weight: 400;
@@ -182,4 +188,72 @@ h2{
     border-radius: 2px;
     cursor:pointer;
     border: 1px solid #5c5c64;
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #home{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .btn-1{
+        margin-left: 20px;
+        border-style: solid;
+        border-radius: 8px;
+        border-width: 1px;
+        padding: 2px 8px;
+        font-weight: 500;
+        width: fit-content;
+        font-size: 8px;
+        box-shadow: none;
+    }
+
+    .btn-1:hover{
+        box-shadow: none;
+    }
+
+    #nav-cont{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+    }
+
+    #home-cont{
+        margin-top: 20px;
+        font-size: 12px;
+        transform:translateY(15%);
+    }
+
+    footer{
+        display: none;
+    }
+
+    .card{
+        transform: scale(60%);
+        flex-wrap: wrap;
+    }
+
+    .card-img{
+        display: none;
+    }
+
+    #skills-list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1024px) {
 }
