@@ -25,14 +25,16 @@
         </div>
     </header>
     <main>
-        <h1>Contact Me</h1>
-        <form action="mailto:bug.ma@outlook.com" method="GET" onsubmit="this.submit(); this.reset(); return false;">
-            <p>Subject</p>
-            <input name="subject" type="text" />
-            <p>Message</p>
-            <textarea name="body"></textarea>
-            <input type="submit" value="Send" />
-        </form>
+        <div id="form-cont">
+            <h1>Contact Me</h1>
+            <form action="mailto:bug.ma@outlook.com" method="post" enctype="text/plain" onsubmit="this.submit(); this.reset(); return false;">
+                <p>Subject</p>
+                <input name="subject" type="text" />
+                <p>Message</p>
+                <textarea rows="5" cols="30" name="body"></textarea>
+                <input id="submit-btn" type="submit" value="Send" />
+            </form>
+        </div>
     </main>
 
 </body>
