@@ -190,7 +190,7 @@ h2{
     border: 1px solid #5c5c64;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
 
     body{
         width: fit-content;
@@ -250,10 +250,4 @@ h2{
     #skills-list{
         display: none;
     }
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 1024px) {
 }
